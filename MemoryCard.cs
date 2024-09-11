@@ -18,11 +18,6 @@ public class MemoryCard : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = image;
     }
 
-    void Start()
-    {
-
-    }
-
     public void OnMouseDown()
     {
         if (cardBack.activeSelf && controller.canReveal)
@@ -35,10 +30,5 @@ public class MemoryCard : MonoBehaviour
     public void Unreveal()
     {
         cardBack.SetActive(true);
-    }
-
-    void Update()
-    {
-        
     }
 }
