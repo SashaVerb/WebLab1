@@ -1,2 +1,1 @@
-# WebLab1
-Lab Work for BSUIR, nothing interesting
+Вербицкий Александр, 224401
